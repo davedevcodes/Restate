@@ -15,21 +15,10 @@
     "react": "^18",
     "react-dom": "^18",
     "framer-motion": "^11.0.0",
-    "cloudinary": "^2.0.0",
-    "next-cloudinary": "^6.0.0",
-    "@fortawesome/fontawesome-svg-core": "^6.5.0",
-    "@fortawesome/free-solid-svg-icons": "^6.5.0",
-    "@fortawesome/free-regular-svg-icons": "^6.5.0",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "paystack": "^2.0.2",
     "react-hot-toast": "^2.4.1",
-    "react-hook-form": "^7.49.0",
-    "zod": "^3.22.0",
-    "@hookform/resolvers": "^3.3.0",
-    "date-fns": "^3.3.0",
     "clsx": "^2.1.0",
     "tailwind-merge": "^2.2.0",
-    "lucide-react": "^0.323.0"
+    "date-fns": "^3.3.0"
   },
   "devDependencies": {
     "@types/node": "^20",
