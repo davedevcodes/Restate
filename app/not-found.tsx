@@ -13,7 +13,7 @@ export default function NotFound() {
           <h1 className="text-7xl font-extrabold font-heading text-primary mb-2" style={{ letterSpacing: '-0.05em' }}>404</h1>
           <h2 className="text-2xl font-bold font-heading text-primary mb-4">Page Not Found</h2>
           <p className="text-sm leading-relaxed mb-8" style={{ color: 'var(--color-text-muted)' }}>
-            Looks like this property has been taken off the market. The page you're looking for doesn&apos;t exist.
+            Looks like this property has been taken off the market. The page you&apos;re looking for doesn&apos;t exist.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/" className="btn-primary px-8 py-3 text-base justify-center">

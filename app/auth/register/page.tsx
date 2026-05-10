@@ -212,7 +212,7 @@ export default function RegisterPage() {
             <i className="fa-solid fa-trophy text-white text-2xl" />
           </div>
           <h2 className="text-3xl font-extrabold mb-4 font-heading" style={{ letterSpacing: '-0.03em' }}>
-            Join Nigeria's #1 Real Estate Platform
+            Join Nigeria&apos;s #1 Real Estate Platform
           </h2>
           <p className="text-sm leading-relaxed mb-8" style={{ color: '#8B949E' }}>
             Access thousands of verified listings, secure escrow payments, and connect with trusted agents across the country.

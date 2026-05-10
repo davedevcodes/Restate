@@ -91,7 +91,7 @@ export default function LoginPage() {
           </form>
 
           <p className="mt-6 text-center text-sm" style={{ color: 'var(--color-text-muted)' }}>
-            Don't have an account?{' '}
+            Don&apos;t have an account?{' '}
             <Link href="/auth/register" className="font-semibold" style={{ color: 'var(--brand-500)' }}>Create one free</Link>
           </p>
 
@@ -127,7 +127,7 @@ export default function LoginPage() {
               {[...Array(5)].map((_, i) => <i key={i} className="fa-solid fa-star text-sm" style={{ color: 'var(--brand-400)' }} />)}
             </div>
             <blockquote className="text-xl font-medium leading-relaxed mb-4 font-heading">
-              "Restate made selling my property effortless. The escrow system gave my buyer complete confidence."
+              &ldquo;Restate made selling my property effortless. The escrow system gave my buyer complete confidence.&rdquo;
             </blockquote>
             <div className="flex items-center gap-3">
               <div className="w-11 h-11 rounded-full flex items-center justify-center font-bold text-sm font-heading" style={{ backgroundColor: 'var(--brand-500)' }}>AO</div>
