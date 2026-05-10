@@ -222,7 +222,7 @@ export default function NewListingPage() {
               {form.property_type !== 'land' && (
                 <Section num={3} title="Property Details">
                   <div className="grid grid-cols-2 gap-6">
-                    {[{ label: 'Bedrooms', field: 'bedrooms' }, { label: 'Bathrooms', field: 'bathrooms' }].map((f) => (<div key={f.field} key={f.field}>
+                    {[{ label: 'Bedrooms', field: 'bedrooms' }, { label: 'Bathrooms', field: 'bathrooms' }].map((f) => (<div key={f.field}>
                         <label className="block text-xs font-bold uppercase tracking-wider mb-2 text-secondary">{f.label}</label>
                         <div className="flex items-center gap-3">
                           <button

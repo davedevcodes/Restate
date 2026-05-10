@@ -63,7 +63,7 @@ export default function MessagesPage() {
                       <i className="fa-regular fa-comments text-3xl mb-2 block text-muted" />
                       <p className="text-xs text-muted">No conversations yet</p>
                     </div>
-                  ) : conversations.map((conv) => (<button key={conv.id} key={conv.id} onClick={() => loadConv(conv)}
+                  ) : conversations.map((conv) => (<button key={conv.id} onClick={() => loadConv(conv)}
                       className="w-full text-left p-4 transition-colors"
                       style={{ borderBottom:'1px solid var(--color-border-light)', backgroundColor: activeConv?.id === conv.id ? 'var(--brand-100)' : '' }}>
                       <div className="flex items-center gap-3">

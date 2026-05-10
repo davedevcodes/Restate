@@ -107,7 +107,7 @@ export default function AgentDashboard() {
                 </div>
               ) : (
                 <div className="divide-y" style={{ borderColor: 'var(--color-border-light)' }}>
-                  {properties.slice(0, 5).map((p) => (<div key={p.id} key={p.id} className="p-4 flex items-center gap-4 transition-colors hover:bg-card-2">
+                  {properties.slice(0, 5).map((p) => (<div key={p.id} className="p-4 flex items-center gap-4 transition-colors hover:bg-card-2">
                       <div className="w-14 h-14 rounded-xl overflow-hidden shrink-0" style={{ backgroundColor: 'var(--color-surface-2)' }}>
                         {p.images?.[0]?.url
                           // eslint-disable-next-line @next/next/no-img-element
@@ -136,7 +136,7 @@ export default function AgentDashboard() {
                   <Link href="/dashboard/agent/transactions" className="text-sm font-medium" style={{ color: 'var(--brand-500)' }}>View all</Link>
                 </div>
                 <div className="divide-y" style={{ borderColor: 'var(--color-border-light)' }}>
-                  {transactions.slice(0, 4).map((txn) => (<div key={txn.id} key={txn.id} className="p-4 flex items-center gap-4">
+                  {transactions.slice(0, 4).map((txn) => (<div key={txn.id} className="p-4 flex items-center gap-4">
                       <div className="w-9 h-9 rounded-xl flex items-center justify-center shrink-0" style={{ backgroundColor: 'var(--color-surface-2)' }}>
                         <i className="fa-solid fa-receipt text-sm text-muted" />
                       </div>

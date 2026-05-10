@@ -37,7 +37,7 @@ export default function AboutPage() {
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <p className="text-sm font-semibold uppercase tracking-widest mb-4" style={{ color: 'var(--brand-400)' }}>About Us</p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold font-heading text-white mb-6 text-balance" style={{ letterSpacing: '-0.03em' }}>
-              Building Nigeria's Most Trusted<br />Real Estate Platform
+              Building Nigeria&apos;s Most Trusted<br />Real Estate Platform
             </h1>
             <p className="text-lg max-w-2xl mx-auto leading-relaxed" style={{ color: 'rgba(255,255,255,0.6)' }}>
               We started Restate because Nigerians deserved a safer, more transparent way to buy and sell property. No more cash under the table. No more scams.

@@ -64,7 +64,7 @@ export default function BuyerDashboard() {
                   <h2 className="font-bold font-heading text-primary">Active Transactions</h2>
                 </div>
                 <div className="divide-y" style={{ borderColor: 'var(--color-border-light)' }}>
-                  {activeTxns.map((txn) => (<div key={txn.id} key={txn.id} className="p-4 flex items-center gap-4">
+                  {activeTxns.map((txn) => (<div key={txn.id} className="p-4 flex items-center gap-4">
                       <div className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0" style={{ backgroundColor: 'var(--color-surface-2)' }}>
                         <i className="fa-solid fa-house text-sm text-muted" />
                       </div>

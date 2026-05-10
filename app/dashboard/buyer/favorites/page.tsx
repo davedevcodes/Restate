@@ -32,7 +32,7 @@ export default function BuyerFavoritesPage() {
             </div>
             {loading ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {[...Array(6)].map((_, i) => (<div key={i} key={i} className="rounded-2xl overflow-hidden" style={{ border: '1px solid var(--color-border-light)', backgroundColor: 'var(--color-surface)' }}>
+                {[...Array(6)].map((_, i) => (<div key={i} className="rounded-2xl overflow-hidden" style={{ border: '1px solid var(--color-border-light)', backgroundColor: 'var(--color-surface)' }}>
                     <div className="aspect-[4/3] shimmer" />
                     <div className="p-4 space-y-2"><div className="h-4 shimmer rounded w-3/4" /><div className="h-3 shimmer rounded w-1/2" /></div>
                   </div>
@@ -49,7 +49,7 @@ export default function BuyerFavoritesPage() {
               </div>
             ) : (
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {favorites.map((fav) => fav.property ? (<PropertyCard key={fav.id} key={fav.id} property={fav.property as any} isFavorited
+                {favorites.map((fav) => fav.property ? (<PropertyCard key={fav.id} property={fav.property as any} isFavorited
                     onFavoriteChange={(pid, isFav) => { if (!isFav) setFavorites((prev) => prev.filter((f) => f.property_id !== pid)) }}
                   />
                 ) : null)}

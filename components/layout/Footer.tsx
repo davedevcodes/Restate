@@ -43,10 +43,10 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm leading-relaxed mb-6" style={{ color: '#8B949E' }}>
-              Nigeria's premier real estate marketplace. Find, list, and transact properties with confidence and transparency.
+              Nigeria&apos;s premier real estate marketplace. Find, list, and transact properties with confidence and transparency.
             </p>
             <div className="flex gap-2">
-              {socialLinks.map((s) => (<a key={s.label} key={s.label}
+              {socialLinks.map((s) => (<a key={s.label}
                   href="#"
                   aria-label={s.label}
                   className="w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover-brand"
@@ -160,7 +160,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Restate. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            {['Privacy Policy', 'Terms of Service'].map((t) => (<Link key={t} key={t}
+            {['Privacy Policy', 'Terms of Service'].map((t) => (<Link key={t}
                 href="#"
                 className="text-sm transition-colors"
                 style={{ color: '#6E7681' }}

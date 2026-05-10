@@ -99,7 +99,7 @@ export default function LoginPage() {
           <div className="mt-8 p-4 rounded-2xl" style={{ backgroundColor: 'var(--color-warning-bg)', border: '1px solid var(--color-border-light)' }}>
             <p className="text-xs font-bold mb-3 flex items-center gap-1.5" style={{ color: 'var(--color-warning-text)' }}>
               <i className="fa-solid fa-flask text-xs" />
-              Demo Accounts — password: <code className="font-mono">password123</code>
+              Demo Accounts — password: password123
             </p>
             <div className="space-y-1.5">
               {demoAccounts.map((d) => (

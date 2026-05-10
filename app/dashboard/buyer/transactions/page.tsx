@@ -45,7 +45,7 @@ export default function BuyerTransactionsPage() {
               ))}
             </div>
             <div className="flex gap-2 flex-wrap">
-              {['all','pending','held','released','cancelled'].map((s) => (<button key={s} key={s} onClick={() => setFilter(s)}
+              {['all','pending','held','released','cancelled'].map((s) => (<button key={s} onClick={() => setFilter(s)}
                   className="px-4 py-2 rounded-xl text-sm font-semibold capitalize transition-all"
                   style={filter===s ? { backgroundColor:'var(--brand-500)', color:'#fff' } : { backgroundColor:'var(--color-surface)', border:'1px solid var(--color-border)', color:'var(--color-text-secondary)' }}
                 >{s}</button>

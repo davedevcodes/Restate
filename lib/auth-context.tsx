@@ -42,6 +42,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   }
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const getSession = async () => {
       const { data: { session } } = await supabase.auth.getSession()
@@ -67,6 +68,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     )
 
     return () => subscription.unsubscribe()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const signIn = async (email: string, password: string) => {

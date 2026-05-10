@@ -105,7 +105,7 @@ export default function HomePage() {
               style={{ backgroundColor: 'rgba(255,255,255,0.10)', backdropFilter: 'blur(8px)', color: 'rgba(255,255,255,0.9)' }}
             >
               <span className="w-2 h-2 rounded-full animate-pulse" style={{ backgroundColor: 'var(--brand-400)' }} />
-              Nigeria's Most Trusted Real Estate Platform
+              Nigeria&apos;s Most Trusted Real Estate Platform
             </div>
 
             <h1
@@ -233,7 +233,7 @@ export default function HomePage() {
               Popular Cities
             </h2>
             <p className="mt-3 text-sm" style={{ color: '#8B949E' }}>
-              Discover properties in Nigeria's fastest-growing cities
+              Discover properties in Nigeria&apos;s fastest-growing cities
             </p>
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
